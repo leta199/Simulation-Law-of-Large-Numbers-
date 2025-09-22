@@ -2,8 +2,7 @@
 Testing out stochastic simulations to visualise the Law of Large Number (LLN) as one of the foundations of statistics and probability.   
 
 ## HOW IT'S MADE 
-Languages used: R verion (4.5.1)  
-Packages and modules: tidyverse, lubridate   
+Languages used: R verion (4.5.1)    
 Environemnt: RStudio
 
 ## METHODS AND TECHNIQUES  
