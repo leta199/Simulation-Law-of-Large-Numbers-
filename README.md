@@ -22,4 +22,5 @@ Create a scatter-plot to show the average of each repeated experiment against th
 └── [README.md/](https://github.com/leta199/Simulation-Law-of-Large-Numbers-/blob/main/README.md)/  
 
 ## AUTHORS   
-[leta199](https://github.com/leta199)
+[leta199](https://github.com/leta199)  
+This simulation is based on an in-class example by Dr. Wei- Min Huang 
