@@ -15,7 +15,7 @@ Repeat thus the tosses 50, 2000 and 10,000 times using the replicate() function 
 **Vizualisation**   
 Create a scatter-plot to show the average of each repeated experiment against the abline() of true calculated probability. 
 
-## PROJECT STRUCTURE Walmart‑Data‑Mining‑and‑Exploratory‑Data‑Analysis‐/     
+## PROJECT STRUCTURE      
 [Simulation- Law of Large Numbers](https://github.com/leta199/Simulation-Law-of-Large-Numbers-)/  
 ├── [Law of large numbers in action](https://github.com/leta199/Simulation-Law-of-Large-Numbers-/blob/main/Law%20of%20large%20numbers%20in%20action.png)/   
 ├── [Law of large numbers sim/](https://github.com/leta199/Simulation-Law-of-Large-Numbers-/blob/main/Law_of_Large_Numbers_sim.r)/   
