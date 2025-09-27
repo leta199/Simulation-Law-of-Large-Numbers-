@@ -11,7 +11,7 @@ Environemnt: RStudio
 **Seed**   
 This sets our seed for reproducability of results.
 **Experiment**   
-Repeat  the tosses 50, 2000 and 10,000 times using the `replicate()` function and get an average of each of the tosses  
+Repeat  the tosses 50, 2000 and 10,000 times using the `replicate()` function and get an average of each of the tosses.  
 **Vizualisation**   
 Create a scatter-plot to show the average of each repeated experiment against the `abline(`) of true calculated probability. 
 
