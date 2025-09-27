@@ -45,7 +45,7 @@ plot(1:n, cumulative_mean,type='p', col="green4",
      main= "Convergence to true probablity simulation")
 
 abline(h=0.467, col="salmon", lw= 2)
-#Based on an in-class example by Dr. Wei-Min Huang 
+
 
 
 

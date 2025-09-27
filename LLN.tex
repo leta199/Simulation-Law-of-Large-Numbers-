@@ -1,0 +1,81 @@
+\documentclass{article}
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\begin{document}
+
+Let:
+\begin{itemize}
+    \item $A = \{$  natural numbers from 1 to 1000 divisible by 3 $\}$
+    \item $B = \{$ natural numbers from 1 to 1000  divisible by 5 $\}$
+    \item $C = \{$ natural numbers from 1 to 1000 divisible by 9 $\}$
+\end{itemize}
+
+We are finding:
+
+\[
+P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B ) - P(A \cap C ) - P(B \cap C ) + P(A \cap B \cap C)
+\]
+
+Where sample space is:
+\[
+\Omega = \{1 \leq n \leq 1000 \mid n \text{ divisible by } 3, 5, \text{ or } 9\}
+\]
+
+
+\textbf{Step 1: Compute cardinalities}
+
+\[
+A= \{3,6,9...999\} ->|A| = \left\lfloor \frac{1000}{3} \right\rfloor = 333
+\quad\Rightarrow\quad
+P(A) = \frac{333}{1000}
+\]
+
+\[
+B= \{5,10,15,...1000\}->|B| = \left\lfloor \frac{1000}{5} \right\rfloor = 200
+\quad\Rightarrow\quad
+P(B) = \frac{200}{1000}
+\]
+
+\[
+C= \{9,18,27,...999\}-> |C| = \left\lfloor \frac{1000}{9} \right\rfloor = 111
+\quad\Rightarrow\quad
+P(C) = \frac{111}{1000}
+\]
+
+\textbf{Step 2: Compute intersections}
+
+\[
+P(A \cap B ) = P(\text{divisible by 15}) = \frac{\left\lfloor \frac{1000}{15} \right\rfloor}{1000} = \frac{1}{15}
+\]
+
+\[
+P(A \cap C ) = P(\text{divisible by 9}) = \frac{\left\lfloor \frac{1000}{9} \right\rfloor}{1000} = \frac{1}{9}
+\]
+
+
+\[
+P(B \cap C ) =P(\text{divisible by 45}) = \frac{\left\lfloor \frac{1000}{45} \right\rfloor}{1000} = \frac{1}{45}
+\]
+
+\[
+P(A \cap B \cap C) = P(\text{divisible by LCM(3,5,9)}) = \frac{\left\lfloor \frac{1000}{45} \right\rfloor}{1000} = \frac{1}{45}
+\]
+
+\textbf{Step 3: Plug in the inclusion-exclusion formula}
+
+
+\[
+P(A \cup B \cup C) = \frac{333}{1000} + \frac{200}{1000} + \frac{111}{1000}
+- \left(\frac{66}{1000} + \frac{111}{1000} + \frac{22}{1000}\right)
++ \frac{22}{1000}
+\]
+
+\[
+= \frac{333 + 200 + 111 - (66 + 111+22)+22 }{1000} = \frac{467}{1000} = 0.467 
+\]
+
+\end{document}
